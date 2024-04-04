@@ -1,171 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Satbhaiya Gym And Fitness</title>
-</head>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;600;700;800&family=Baloo+Bhaina+2:wght@600&family=Kalam:wght@300&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="css/style.css">
-    <style>
-        body{
-            font-family: 'Baloo Bhaijaan 2', cursive;
-            color: white;
-            margin:0px;
-            padding: 0px;
-            background:url('img/bg.jpg');
-            
-        }
-       .left{
-            /* border: 2px solid green; */
-            display: inline-block;
-            position: absolute;
-            top:20px;
-            left: 60px;
-            
-       }
-       .left img{
-        width: 136px;
-        filter: invert(100%);
-       
-       }
-       .left div {
-        line-height: 19px;
-        font-size: 26px;
-        text-align: center;
-       }
-       .center{
-            margin:29px auto;
-            width: 36%;
-            display: block;
-            /* border: 2px solid green; */
-       }
-       .right{
-           
-            position: absolute ;
-            top: 43px;
-            right: 34px;
-            display: inline-block;
-            /* border: 2px solid green; */
-            
-       }
-       .right btn, right btn:hover{
-        text-decoration: none;
+  </head>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;600;700;800&family=Baloo+Bhaina+2:wght@600&family=Kalam:wght@300&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    body {
+      font-family: "Baloo Bhaijaan 2", cursive;
+      color: white;
+      margin: 0px;
+      padding: 0px;
+      background: url("img/bg.jpg");
+    }
+    .left {
+      /* border: 2px solid green; */
+      display: inline-block;
+      position: absolute;
+      top: 20px;
+      left: 60px;
+    }
+    .left img {
+      width: 136px;
+      filter: invert(100%);
+    }
+    .left div {
+      line-height: 19px;
+      font-size: 26px;
+      text-align: center;
+    }
+    .center {
+      margin: 29px auto;
+      width: 36%;
+      display: block;
+      /* border: 2px solid green; */
+    }
+    .right {
+      position: absolute;
+      top: 43px;
+      right: 34px;
+      display: inline-block;
+      /* border: 2px solid green; */
+    }
+    .right btn,
+    right btn:hover {
+      text-decoration: none;
+    }
+    .navbar {
+      display: inline-block;
+    }
 
-       }
-       .navbar{
-        display: inline-block;
-       }
-    
-       .navbar li{
-            display:inline-block;
-            font-size: 25px;
-            font-weight: bold;
-       }
-      
-       .navbar li a{
-        color: white;
-        text-decoration:none;
-        padding: 34px 23px;
-       }
-       .navbar li a:hover, .navbar li a.active{
-            text-decoration: underline;
-            color: yellow;
-       }
-       .btn{
-        margin: 0px 8px;
-        background-color:black;
-        color: white;
-        cursor: pointer;
-        padding: 4px 14px;
-        font-size: 20px;
-        border: 2px solid gray;
-        border-radius: 10px;
-        font-family: 'Baloo Bhaijaan 2', cursive;
-       }
-       .btn:hover{
-        background-color: darkviolet;
-       }
-       .container{
-        border: 2px solid white;
-        margin: 106px 80px;
-        padding: 75px;
-        width: 33%;
-        border-radius: 28px;
-         background-color: rgb(11, 184, 46); 
-       }
-       /* .container text1{
+    .navbar li {
+      display: inline-block;
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+      padding: 34px 23px;
+    }
+    .navbar li a:hover,
+    .navbar li a.active {
+      text-decoration: underline;
+      color: yellow;
+    }
+    .btn {
+      margin: 0px 8px;
+      background-color: black;
+      color: white;
+      cursor: pointer;
+      padding: 4px 14px;
+      font-size: 20px;
+      border: 2px solid gray;
+      border-radius: 10px;
+      font-family: "Baloo Bhaijaan 2", cursive;
+    }
+    .btn:hover {
+      background-color: darkviolet;
+    }
+    .container {
+      border: 2px solid white;
+      margin: 106px 80px;
+      padding: 75px;
+      width: 33%;
+      border-radius: 28px;
+      background-color: rgb(11, 184, 46);
+    }
+    /* .container text1{
         display:inline-block;
         margin: auto; */
-       
-       .form-group input{
-        font-family: 'Baloo Bhaijaan 2', cursive;
-        text-align: center;
-        display: block;
-        width: 508px;
-        padding: 1px;
-        border: 2px solid black;
-        margin: 11px auto;
-        font-size: 25px;
-        border-radius: 8px;
-       }
-       .container h1{
-            text-align: center;
-       }
-       .container button{
-        display: block;
-        width: 74%;
-        margin: 20px auto;
-       }
-       button{
-        font-size: 40px;
-        background-color: red;
-        cursor: pointer;
-       }
-    </style> 
-<body>
+
+    .form-group input {
+      font-family: "Baloo Bhaijaan 2", cursive;
+      text-align: center;
+      display: block;
+      width: 508px;
+      padding: 1px;
+      border: 2px solid black;
+      margin: 11px auto;
+      font-size: 25px;
+      border-radius: 8px;
+    }
+    .container h1 {
+      text-align: center;
+    }
+    .container button {
+      display: block;
+      width: 74%;
+      margin: 20px auto;
+    }
+    button {
+      font-size: 40px;
+      background-color: red;
+      cursor: pointer;
+    }
+  </style>
+  <body>
     <header class="header">
-        <div class="left">
-              <img src="img/gym.jpg" alt="Fitness And Gym">
-              <div>Rajesh Fitness</div>
-        </div>
-        <div class="center">
-            <ul class="navbar">
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">About us</a> </li>
-                <li><a href="#">Classes</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-        <div class="right">
-            <button class="btn">Email</button>
-            <button class="btn">Call free</button>
-        </div>
+      <div class="left">
+        <img src="img/gym.jpg" alt="Fitness And Gym" />
+        <div>Rajesh Fitness</div>
+      </div>
+      <div class="center">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Classes</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <button class="btn">Email</button>
+        <button class="btn">Call free</button>
+      </div>
     </header>
     <div class="container">
-        <h1>Join Our Gym</h1>
-        <form action="noaction.php">
-            <div class="form-group">
-                <input type="text" name=""placeholder="Enter your name"/>
-            </div>
-            <div class="form-group">
-                <input type="text" name=""placeholder="Enter your age "/>
-            </div>
-            <div class="form-group">
-                <input type="text" name=""placeholder="Enter your gender "/>
-            </div>
-            <div class="form-group">
-                <input type="text" name=""placeholder="Enter your address"/>
-            </div>
-            <div class="form-group">
-                <input type="text" name=""placeholder="Enter your mobile number"/>
-            </div>
-            <div >
-                <button>Submit</button>
-            </div>
-        </form>
+      <h1>Join Our Gym</h1>
+      <form action="noaction.php">
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your name" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your age " />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your gender " />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your address" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your mobile number" />
+        </div>
+        <div>
+          <button>Submit</button>
+        </div>
+      </form>
     </div>
-</body>
+  </body>
 </html>
